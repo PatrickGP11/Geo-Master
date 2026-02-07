@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GeoMaster - Morte Súbita</title>
+    <link rel="shortcut icon" href="assets/icons8-geografia-16.png" type="image/planeta.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-anim"></div>
+
+    <div class="glass-container">
+
+        <div id="loading-screen" class="screen active">
+            <div class="spinner"></div>
+            <h2>Carregando Mundo...</h2>
+        </div>
+
+        <div id="menu-screen" class="screen">
+            <div class="logo-area">
+                <h1>GeoMaster</h1>
+                <span class="badge danger">Morte Súbita 💀</span>
+            </div>
+
+            <div class="info-card">
+                <h3>Regras do Jogo:</h3>
+                <ul class="rules-list">
+                    <li>🌎 Todos os países do mundo.</li>
+                    <li>🔀 Ordem totalmente aleatória.</li>
+                    <li>⚡ 10 segundos por bandeira.</li>
+                    <li>❌ <strong>Um erro = Fim de Jogo.</strong></li>
+                </ul>
+            </div>
+
+            <button class="btn-primary start-btn" onclick="game.startGame()">COMEÇAR O CAOS</button>
+            <button class="btn-secondary" onclick="game.showRanking()">Ver Ranking</button>
+        </div>
+
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="streak-box">
+                    <span>Sequência:</span> <span id="streak-display">0</span>
+                </div>
+                <div class="score-badge">
+                    <span>🏆</span> <span id="score">0</span>
+                </div>
+            </div>
+
+            <div class="timer-bar-container">
+                <div id="timer-bar" class="timer-bar"></div>
+            </div>
+
+            <div class="card-flag">
+                <img id="flag-image" src="" alt="Bandeira">
+            </div>
+
+            <div id="options-grid" class="options-grid">
+            </div>
+        </div>
+
+        <div id="ranking-screen" class="screen">
+            <h1 id="end-title">Fim da Linha</h1>
+
+            <div class="current-result">
+                <p>Sua Pontuação: <strong id="final-score" style="color: #fab1a0; font-size: 1.5rem;">0</strong></p>
+            </div>
+
+            <div class="ranking-box">
+                <h3>🏆 Melhores Sobreviventes</h3>
+                <ul id="high-scores-list">
+                </ul>
+            </div>
+
+            <button class="btn-primary restart-btn" onclick="game.startGame()">Tentar Novamente</button>
+            <button class="btn-secondary" onclick="game.showMenu()">Voltar ao Menu</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
