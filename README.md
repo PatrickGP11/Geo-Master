@@ -10,6 +10,8 @@ O objetivo deste projeto foi criar uma aplicação interativa, leve e responsiva
 
 O banco de dados conta com mais de 250 países e territórios, garantindo que as partidas sejam sempre diferentes umas das outras.
 
+---
+
 ## 🎮 Funcionalidades Principais
 
 *Modo Sobrevivência (Morte Súbita): Não existem vidas extras. Se você errar uma única bandeira ou o tempo acabar, o jogo termina imediatamente.*
@@ -23,6 +25,8 @@ O banco de dados conta com mais de 250 países e territórios, garantindo que as
 *Sistema de Ranking: As 5 melhores pontuações ficam salvas no navegador do usuário, criando um histórico de recordes pessoais.*
 
 *Interface Responsiva: O layout se adapta perfeitamente a computadores, tablets e celulares (design mobile-first).*
+
+---
 
 ## 🕹️ Como Jogar
 
@@ -50,6 +54,8 @@ JavaScript (ES6+): Para toda a lógica do jogo, controle de tempo, manipulação
 
 API Externa: REST Countries (Fonte dos dados).
 
+---
+
 ## 🚀 Como Executar o Projeto
 
 Este é um projeto estático, o que significa que não requer instalação de servidores ou bancos de dados complexos.
@@ -64,6 +70,8 @@ O jogo abrirá automaticamente no seu navegador padrão.
 
 Nota: É necessário estar conectado à internet para jogar, pois o jogo baixa as bandeiras e nomes dos países no momento em que é iniciado.
 
+---
+
 ## 🤝 Autor
 
-Projeto desenvolvido para fins de estudo e portfólio, demonstrando habilidades em lógica de programação e front-end.
+Projeto desenvolvido por Patrick Gonçalves e para fins de estudo e portfólio, demonstrando habilidades em lógica de programação e front-end.
