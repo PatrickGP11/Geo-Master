@@ -74,4 +74,4 @@ Nota: É necessário estar conectado à internet para jogar, pois o jogo baixa a
 
 ## 🤝 Autor
 
-Projeto desenvolvido por Patrick Gonçalves e para fins de estudo e portfólio, demonstrando habilidades em lógica de programação e front-end.
+Projeto desenvolvido por IA e orientado por Patrick Gonçalves para fins de estudo e portfólio, demonstrando habilidades em lógica de programação e front-end.
